@@ -1,0 +1,11 @@
+m=-0.1+j*0.3
+n=-10:10
+x=exp(m*n);
+r=real(x)
+i=imag(x)
+figure,stem(r)
+figure,stem(i)
+z=abs(x)
+p=(180/pi)*angle(x)
+figure,stem(z)
+figure,stem(p)
